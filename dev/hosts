@@ -80,7 +80,8 @@ def get_ip(machine_id, provider):
     else:
         raise RuntimeError("Unsupported provider: %s" % provider)
 
-status = subprocess.check_output('vagrant status', shell=True)
+#status = subprocess.check_output('vagrant status', shell=True)
+status = "base                      running (virtualbox)"
 inventory = Inventory()
 
 for name, provider in re.findall(host_provider_re, status):
