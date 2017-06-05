@@ -1,0 +1,9 @@
+---
+- name: copy gify-panda app
+  copy: src=gify-panda-app dest=/root/ owner=root group=root mode=0755
+
+- name: npm install
+  npm: path=/root/gify-panda-app
+
+- name: restarts service
+  command: /root/gify-panda-app/service.sh restart

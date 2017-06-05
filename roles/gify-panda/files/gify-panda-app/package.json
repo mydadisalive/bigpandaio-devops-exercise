@@ -1,0 +1,9 @@
+{
+  "name": "gify-panda",
+  "version": "1.0.0",
+  "description": "gify panda app",
+  "main": "gify-panda.js",
+  "dependencies": {
+    "httpdispatcher": "^1.0.0"
+  }
+}

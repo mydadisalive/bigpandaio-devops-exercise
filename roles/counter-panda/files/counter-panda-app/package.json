@@ -1,0 +1,9 @@
+{
+  "name": "counter-panda",
+  "version": "1.0.0",
+  "description": "counter panda app",
+  "main": "counter-panda.js",
+  "dependencies": {
+    "httpdispatcher": "^1.0.0"
+  }
+}
